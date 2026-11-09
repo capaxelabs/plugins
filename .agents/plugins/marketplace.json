@@ -1,0 +1,53 @@
+{
+  "name": "capaxe",
+  "interface": {
+    "displayName": "Capaxe Labs"
+  },
+  "plugins": [
+    {
+      "name": "beefi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/capaxelabs/beefi-ai-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance",
+      "interface": {
+        "displayName": "Beefi"
+      }
+    },
+    {
+      "name": "opskitty",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/capaxelabs/opskitty-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "OpsKitty"
+      }
+    },
+    {
+      "name": "raechly",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/capaxelabs/raechly-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Operations",
+      "interface": {
+        "displayName": "Raechly"
+      }
+    }
+  ]
+}
