@@ -1,0 +1,31 @@
+{
+  "name": "capaxe",
+  "description": "Hosted MCP servers from Capaxe Labs: Beefi for SEC data, OpsKitty for uptime and SEO, Raechly for cold email.",
+  "owner": {
+    "name": "Capaxe Labs",
+    "url": "https://github.com/capaxelabs"
+  },
+  "plugins": [
+    {
+      "name": "beefi",
+      "source": { "source": "github", "repo": "capaxelabs/beefi-ai-mcp" },
+      "description": "SEC EDGAR data for US public companies: financials, insider trades, 13F holdings, filings and macro.",
+      "homepage": "https://www.beefi.ai",
+      "category": "finance"
+    },
+    {
+      "name": "opskitty",
+      "source": { "source": "github", "repo": "capaxelabs/opskitty-mcp" },
+      "description": "Uptime checks for sites and APIs, status pages, cron heartbeats, Lighthouse and SEO audits.",
+      "homepage": "https://www.opskitty.com",
+      "category": "monitoring"
+    },
+    {
+      "name": "raechly",
+      "source": { "source": "github", "repo": "capaxelabs/raechly-mcp" },
+      "description": "Run cold email from your agent: mailboxes, warmup, lead search, campaigns, replies and deals.",
+      "homepage": "https://www.raechly.com",
+      "category": "sales"
+    }
+  ]
+}
